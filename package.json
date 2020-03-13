@@ -12,5 +12,8 @@
     "insomnia": {
         "name": "codegen",
         "description": "Generate Code with custom templates using httpsnippet package"
+    },
+    "dependencies": {
+        "httpsnippet": "^1.19.1"
     }
 }
