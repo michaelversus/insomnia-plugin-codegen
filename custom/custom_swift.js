@@ -30,7 +30,7 @@ module.exports = function (source, options) {
 
     // We just want to make sure people understand that is the only dependency
     code.push('import Foundation')
-    code.push('//Just testing that custom npm package works')
+    code.push('//Just testing that custom npm package works %s', source.comment)
 
     if (Object.keys(source.allHeaders).length) {
         req.hasHeaders = true
