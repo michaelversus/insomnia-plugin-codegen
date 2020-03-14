@@ -1,5 +1,6 @@
 # insomnia-plugin-codegen
-Simple insomnia plugin to export swift nsurlsession code for every request using httpsnippet module
+Simple insomnia plugin to export swift and kotlin code for every request using [httpsnippet](https://github.com/Kong/httpsnippet) module
+with custom templates
 
 ## Usage
 
