@@ -1,6 +1,6 @@
 /**
  * @description
- * HTTP code snippet generator for Swift using NSURLSession.
+ * custom HTTP code snippet generator for Swift using NSURLSession.
  *
  * @author
  * @thibaultCha
@@ -30,7 +30,7 @@ module.exports = function (source, options) {
 
     // We just want to make sure people understand that is the only dependency
     code.push('import Foundation')
-    code.push('//Just testing that custom npm package works %s', source.comment)
+    code.push('//Just testing that custom template works %s', source.comment)
 
     if (Object.keys(source.allHeaders).length) {
         req.hasHeaders = true
