@@ -1,6 +1,6 @@
 {
     "name": "insomnia-plugin-codegen",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generate Code with custom templates using httpsnippet package",
     "license": "MIT",
     "main": "./src/plugin.js",
