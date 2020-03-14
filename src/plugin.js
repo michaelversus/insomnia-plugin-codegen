@@ -25,7 +25,7 @@ module.exports.workspaceActions = [
 
                 //create the swift snippet
                 var snippet = new HTTPSnippet(parsed)
-                const code = snippet.convert('swift', 'nsurlsession')
+                const code = snippet.convert('swift', 'custom')
 
                 //save file to users desktop
                 const filename = filteredEntries[i].comment.replace("CodeGen-", "")
