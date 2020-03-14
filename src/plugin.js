@@ -1,6 +1,6 @@
 const fs = require("fs");
 const homedir = require("os").homedir();
-
+var HTTPSnippet = require('httpsnippet');
 
 
 module.exports.workspaceActions = [
@@ -22,9 +22,13 @@ module.exports.workspaceActions = [
             //const html = `<ul>${results.join("\n")}</ul>`;
             //context.app.showGenericModalDialog("Results", { html });
             const username = homedir.split("/")[2];
+            const har = JSON.stringify(parsed)
+            var snippet = new HTTPSnippet(har)
+            const code = snippet.convert('swift', 'nsurlsession')
+
             fs.writeFileSync(
-                `/users/${username}/Desktop/export.json`,
-                JSON.stringify(parsed)
+                `/users/${username}/Desktop/Export.swift`,
+                code
             )
         }
     }
