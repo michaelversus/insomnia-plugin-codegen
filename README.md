@@ -6,6 +6,7 @@ with custom templates
 
 1. Give a prefix "CodeGen-" for every request you want to export
 2. open the pluginsFolder and replace `insomnia-plugin-codegen/custom/custom_swift.js` and `insomnia-plugin-codegen/custom/custom_kotlin.js` with your templates
+3. Remember to click Reload Plugin List after 
 
 ![Screenshot](./screenshots/pluginsFolder.png)
 
