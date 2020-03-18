@@ -6,7 +6,7 @@ var HTTPSnippet = require('httpsnippet');
 module.exports.workspaceActions = [
     {
         label: "generate swift code",
-        icon: "fa-swift",
+        icon: "fa-apple",
         action: async (context, models) => {
             const ex = await context.data.export.har({
                 includePrivate: false,
@@ -70,7 +70,7 @@ module.exports.workspaceActions = [
     },
     {
         label: "generate java code",
-        icon: "fa-java",
+        icon: "fa-android",
         action: async (context, models) => {
             const ex = await context.data.export.har({
                 includePrivate: false,
@@ -102,7 +102,7 @@ module.exports.workspaceActions = [
     },
     {
         label: "generate js code",
-        icon: "fa-js",
+        icon: "fa-code",
         action: async (context, models) => {
             const ex = await context.data.export.har({
                 includePrivate: false,
