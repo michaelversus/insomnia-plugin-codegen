@@ -14,7 +14,6 @@
         "description": "Generate Code with custom templates using httpsnippet package"
     },
     "dependencies": {
-        "httpsnippet": "git+https://github.com/michaelversus/httpsnippet.git#custom/1.1.0",
-        "mkdirp": "^1.0.3"
+        "httpsnippet": "git+https://github.com/michaelversus/httpsnippet.git#custom/1.1.0"
     }
 }
