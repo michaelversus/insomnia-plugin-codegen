@@ -116,14 +116,6 @@ fs-readfile-promise@^2.0.1:
   dependencies:
     graceful-fs "^4.1.2"
 
-fs-writefile-promise@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fs-writefile-promise/-/fs-writefile-promise-1.0.3.tgz#e02f9b58ffc255ed822adc7a01114f445d48d063"
-  integrity sha1-4C+bWP/CVe2CKtx6ARFPRF1I0GM=
-  dependencies:
-    mkdirp-promise "^1.0.0"
-    pinkie-promise "^1.0.0"
-
 fs-writefile-promise@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/fs-writefile-promise/-/fs-writefile-promise-3.0.2.tgz#43635986d87bf83d8a33d71570833fbfa68434b4"
@@ -159,9 +151,9 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-"httpsnippet@git+https://github.com/michaelversus/httpsnippet.git#custom/1.1.0":
+"httpsnippet@git+https://github.com/michaelversus/httpsnippet.git#custom/1.1.4":
   version "1.19.1"
-  resolved "git+https://github.com/michaelversus/httpsnippet.git#1664d813983178781dd64a257270e0ffba33e591"
+  resolved "git+https://github.com/michaelversus/httpsnippet.git#1b7867072828be8c0e000cfca46dc60cec008ff2"
   dependencies:
     chalk "^1.1.1"
     commander "^2.9.0"
@@ -169,8 +161,9 @@ has-ansi@^2.0.0:
     event-stream "3.3.4"
     form-data "3.0.0"
     fs-readfile-promise "^2.0.1"
-    fs-writefile-promise "^1.0.3"
+    fs-writefile-promise "^3.0.2"
     har-validator "^5.0.0"
+    mkdirp "^1.0.4"
     pinkie-promise "^2.0.0"
     stringify-object "^3.3.0"
 
@@ -206,10 +199,10 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.43.0"
 
-mkdirp-promise@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mkdirp-promise/-/mkdirp-promise-1.1.0.tgz#2c84893ed676e0d98fb18fb9a6212fd1b2b9a819"
-  integrity sha1-LISJPtZ24NmPsY+5piEv0bK5qBk=
+mkdirp@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -223,24 +216,12 @@ pause-stream@0.0.11:
   dependencies:
     through "~2.3"
 
-pinkie-promise@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-1.0.0.tgz#d1da67f5482563bb7cf57f286ae2822ecfbf3670"
-  integrity sha1-0dpn9UglY7t89X8oauKCLs+/NnA=
-  dependencies:
-    pinkie "^1.0.0"
-
 pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
   integrity sha1-ITXW36ejWMBprJsXh3YogihFD/o=
   dependencies:
     pinkie "^2.0.0"
-
-pinkie@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-1.0.0.tgz#5a47f28ba1015d0201bda7bf0f358e47bec8c7e4"
-  integrity sha1-Wkfyi6EBXQIBvae/DzWOR77Ix+Q=
 
 pinkie@^2.0.0:
   version "2.0.4"
