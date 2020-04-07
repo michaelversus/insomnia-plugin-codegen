@@ -14,6 +14,7 @@
         "description": "Generate Code with custom templates using httpsnippet package"
     },
     "dependencies": {
+        "fs-writefile-promise": "^3.0.2",
         "httpsnippet": "git+https://github.com/michaelversus/httpsnippet.git#custom/1.1.0"
     }
 }

@@ -124,6 +124,11 @@ fs-writefile-promise@^1.0.3:
     mkdirp-promise "^1.0.0"
     pinkie-promise "^1.0.0"
 
+fs-writefile-promise@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/fs-writefile-promise/-/fs-writefile-promise-3.0.2.tgz#43635986d87bf83d8a33d71570833fbfa68434b4"
+  integrity sha512-j8HMTdlHUWaMGteIcl6Vg+zzuBl2H+Rbl7SN5bhROO99oIJNlUjdomdGqdMmQ9gzliEDUBlojJVgnKjVgvHF2g==
+
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
